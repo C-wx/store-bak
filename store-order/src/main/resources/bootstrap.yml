@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: store-order
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        namespace: 8eecbf45-b2ae-4788-b2a5-668f115920f2
+        group: STORE_GROUP
+  main:
+    allow-bean-definition-overriding: true
